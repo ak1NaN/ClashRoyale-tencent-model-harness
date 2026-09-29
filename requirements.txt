@@ -1,0 +1,6 @@
+frida==17.17.0
+torch==2.5.1
+numpy==2.1.2
+pillow==11.0.0
+orjson==3.10.16
+pytest==8.3.5

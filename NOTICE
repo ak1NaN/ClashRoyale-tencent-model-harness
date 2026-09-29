@@ -1,0 +1,7 @@
+ClashRoyale-tencent-model-harness
+Copyright 2026 ak1
+
+This repository includes a limited, unmodified subset of FirstLight_CR
+(Jaasssoooonnnnn/FirstLight_CR, revision 3ade158c52bf33de3ffcea600ce380946b7de0d8)
+for model inference. Its Apache-2.0 LICENSE and original NOTICE are retained
+under third_party/FirstLight_CR/.

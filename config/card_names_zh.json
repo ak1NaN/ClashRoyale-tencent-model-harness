@@ -1,0 +1,616 @@
+{
+  "schema": "tencent-cr-card-names.v1",
+  "source": "Bundled FirstLight_CR native_runner/card_names.py CN/EN text table",
+  "cards": [
+    {
+      "id": 26000000,
+      "zh": "骑士",
+      "en": "Knight"
+    },
+    {
+      "id": 26000001,
+      "zh": "弓箭手",
+      "en": "Archers"
+    },
+    {
+      "id": 26000002,
+      "zh": "哥布林",
+      "en": "Goblins"
+    },
+    {
+      "id": 26000003,
+      "zh": "巨人",
+      "en": "Giant"
+    },
+    {
+      "id": 26000004,
+      "zh": "皮卡超人",
+      "en": "P.E.K.K.A"
+    },
+    {
+      "id": 26000005,
+      "zh": "亡灵",
+      "en": "Minions"
+    },
+    {
+      "id": 26000006,
+      "zh": "气球兵",
+      "en": "Balloon"
+    },
+    {
+      "id": 26000007,
+      "zh": "女巫",
+      "en": "Witch"
+    },
+    {
+      "id": 26000008,
+      "zh": "野蛮人",
+      "en": "Barbarians"
+    },
+    {
+      "id": 26000009,
+      "zh": "戈仑石人",
+      "en": "Golem"
+    },
+    {
+      "id": 26000010,
+      "zh": "骷髅兵",
+      "en": "Skeletons"
+    },
+    {
+      "id": 26000011,
+      "zh": "瓦基丽武神",
+      "en": "Valkyrie"
+    },
+    {
+      "id": 26000012,
+      "zh": "骷髅军团",
+      "en": "Skeleton Army"
+    },
+    {
+      "id": 26000013,
+      "zh": "炸弹兵",
+      "en": "Bomber"
+    },
+    {
+      "id": 26000014,
+      "zh": "火枪手",
+      "en": "Musketeer"
+    },
+    {
+      "id": 26000015,
+      "zh": "飞龙宝宝",
+      "en": "Baby Dragon"
+    },
+    {
+      "id": 26000016,
+      "zh": "王子",
+      "en": "Prince"
+    },
+    {
+      "id": 26000017,
+      "zh": "法师",
+      "en": "Wizard"
+    },
+    {
+      "id": 26000018,
+      "zh": "迷你皮卡",
+      "en": "Mini P.E.K.K.A"
+    },
+    {
+      "id": 26000019,
+      "zh": "哥布林投矛手",
+      "en": "Spear Goblins"
+    },
+    {
+      "id": 26000020,
+      "zh": "骷髅巨人",
+      "en": "Giant Skeleton"
+    },
+    {
+      "id": 26000021,
+      "zh": "野猪骑士",
+      "en": "Hog Rider"
+    },
+    {
+      "id": 26000022,
+      "zh": "亡灵大军",
+      "en": "Minion Horde"
+    },
+    {
+      "id": 26000023,
+      "zh": "寒冰法师",
+      "en": "Ice Wizard"
+    },
+    {
+      "id": 26000024,
+      "zh": "皇家巨人",
+      "en": "Royal Giant"
+    },
+    {
+      "id": 26000025,
+      "zh": "骷髅守卫",
+      "en": "Guards"
+    },
+    {
+      "id": 26000026,
+      "zh": "公主",
+      "en": "Princess"
+    },
+    {
+      "id": 26000027,
+      "zh": "黑暗王子",
+      "en": "Dark Prince"
+    },
+    {
+      "id": 26000028,
+      "zh": "三个火枪手",
+      "en": "Three Musketeers"
+    },
+    {
+      "id": 26000029,
+      "zh": "熔岩猎犬",
+      "en": "Lava Hound"
+    },
+    {
+      "id": 26000030,
+      "zh": "冰雪精灵",
+      "en": "Ice Spirit"
+    },
+    {
+      "id": 26000031,
+      "zh": "烈焰精灵",
+      "en": "Fire Spirit"
+    },
+    {
+      "id": 26000032,
+      "zh": "掘地矿工",
+      "en": "Miner"
+    },
+    {
+      "id": 26000033,
+      "zh": "电磁炮",
+      "en": "Sparky"
+    },
+    {
+      "id": 26000034,
+      "zh": "巨石投手",
+      "en": "Bowler"
+    },
+    {
+      "id": 26000035,
+      "zh": "狂暴樵夫",
+      "en": "Lumberjack"
+    },
+    {
+      "id": 26000036,
+      "zh": "野蛮人攻城槌",
+      "en": "Battle Ram"
+    },
+    {
+      "id": 26000037,
+      "zh": "地狱飞龙",
+      "en": "Inferno Dragon"
+    },
+    {
+      "id": 26000038,
+      "zh": "戈仑冰人",
+      "en": "Ice Golem"
+    },
+    {
+      "id": 26000039,
+      "zh": "重甲亡灵",
+      "en": "Mega Minion"
+    },
+    {
+      "id": 26000040,
+      "zh": "吹箭哥布林",
+      "en": "Dart Goblin"
+    },
+    {
+      "id": 26000041,
+      "zh": "哥布林团伙",
+      "en": "Goblin Gang"
+    },
+    {
+      "id": 26000042,
+      "zh": "闪电法师",
+      "en": "Electro Wizard"
+    },
+    {
+      "id": 26000043,
+      "zh": "野蛮人精锐",
+      "en": "Elite Barbarians"
+    },
+    {
+      "id": 26000044,
+      "zh": "猎人",
+      "en": "Hunter"
+    },
+    {
+      "id": 26000045,
+      "zh": "飞斧屠夫",
+      "en": "Executioner"
+    },
+    {
+      "id": 26000046,
+      "zh": "幻影刺客",
+      "en": "Bandit"
+    },
+    {
+      "id": 26000047,
+      "zh": "皇家卫队",
+      "en": "Royal Recruits"
+    },
+    {
+      "id": 26000048,
+      "zh": "暗夜女巫",
+      "en": "Night Witch"
+    },
+    {
+      "id": 26000049,
+      "zh": "蝙蝠",
+      "en": "Bats"
+    },
+    {
+      "id": 26000050,
+      "zh": "皇家幽灵",
+      "en": "Royal Ghost"
+    },
+    {
+      "id": 26000051,
+      "zh": "蛮羊骑士",
+      "en": "Ram Rider"
+    },
+    {
+      "id": 26000052,
+      "zh": "电击车小队",
+      "en": "Zappies"
+    },
+    {
+      "id": 26000053,
+      "zh": "绿林团伙",
+      "en": "Rascals"
+    },
+    {
+      "id": 26000054,
+      "zh": "加农炮战车",
+      "en": "Cannon Cart"
+    },
+    {
+      "id": 26000055,
+      "zh": "超级骑士",
+      "en": "Mega Knight"
+    },
+    {
+      "id": 26000056,
+      "zh": "骷髅气球",
+      "en": "Skeleton Barrel"
+    },
+    {
+      "id": 26000057,
+      "zh": "飞行器",
+      "en": "Flying Machine"
+    },
+    {
+      "id": 26000058,
+      "zh": "攻城炸弹人",
+      "en": "Wall Breakers"
+    },
+    {
+      "id": 26000059,
+      "zh": "皇家野猪",
+      "en": "Royal Hogs"
+    },
+    {
+      "id": 26000060,
+      "zh": "哥布林巨人",
+      "en": "Goblin Giant"
+    },
+    {
+      "id": 26000061,
+      "zh": "渔夫",
+      "en": "Fisherman"
+    },
+    {
+      "id": 26000062,
+      "zh": "神箭游侠",
+      "en": "Magic Archer"
+    },
+    {
+      "id": 26000063,
+      "zh": "雷电飞龙",
+      "en": "Electro Dragon"
+    },
+    {
+      "id": 26000064,
+      "zh": "烟花炮手",
+      "en": "Firecracker"
+    },
+    {
+      "id": 26000065,
+      "zh": "威猛矿工",
+      "en": "Mighty Miner"
+    },
+    {
+      "id": 26000067,
+      "zh": "圣水戈仑",
+      "en": "Elixir Golem"
+    },
+    {
+      "id": 26000068,
+      "zh": "战斗天使",
+      "en": "Battle Healer"
+    },
+    {
+      "id": 26000069,
+      "zh": "骷髅帝王",
+      "en": "Skeleton King"
+    },
+    {
+      "id": 26000072,
+      "zh": "弓箭女皇",
+      "en": "Archer Queen"
+    },
+    {
+      "id": 26000074,
+      "zh": "黄金圣骑",
+      "en": "Golden Knight"
+    },
+    {
+      "id": 26000077,
+      "zh": "盖世武僧",
+      "en": "Monk"
+    },
+    {
+      "id": 26000080,
+      "zh": "骷髅飞龙",
+      "en": "Skeleton Dragons"
+    },
+    {
+      "id": 26000083,
+      "zh": "女巫婆婆",
+      "en": "Mother Witch"
+    },
+    {
+      "id": 26000084,
+      "zh": "雷电精灵",
+      "en": "Electro Spirit"
+    },
+    {
+      "id": 26000085,
+      "zh": "雷电巨人",
+      "en": "Electro Giant"
+    },
+    {
+      "id": 26000087,
+      "zh": "凤凰",
+      "en": "Phoenix"
+    },
+    {
+      "id": 26000093,
+      "zh": "小王子",
+      "en": "Little Prince"
+    },
+    {
+      "id": 26000095,
+      "zh": "哥布林爆破手",
+      "en": "Goblin Demolisher"
+    },
+    {
+      "id": 26000096,
+      "zh": "哥布林机甲",
+      "en": "Goblin Machine"
+    },
+    {
+      "id": 26000097,
+      "zh": "可疑草丛",
+      "en": "Suspicious Bush"
+    },
+    {
+      "id": 26000099,
+      "zh": "科学怪哥布林",
+      "en": "Goblinstein"
+    },
+    {
+      "id": 26000101,
+      "zh": "符文巨人",
+      "en": "Rune Giant"
+    },
+    {
+      "id": 26000102,
+      "zh": "狂战士",
+      "en": "Berserker"
+    },
+    {
+      "id": 26000103,
+      "zh": "刺客头领",
+      "en": "Boss Bandit"
+    },
+    {
+      "id": 26000106,
+      "zh": "浪人",
+      "en": "Ronin"
+    },
+    {
+      "id": 27000000,
+      "zh": "加农炮",
+      "en": "Cannon"
+    },
+    {
+      "id": 27000001,
+      "zh": "哥布林小屋",
+      "en": "Goblin Hut"
+    },
+    {
+      "id": 27000002,
+      "zh": "迫击炮",
+      "en": "Mortar"
+    },
+    {
+      "id": 27000003,
+      "zh": "地狱之塔",
+      "en": "Inferno Tower"
+    },
+    {
+      "id": 27000004,
+      "zh": "炸弹塔",
+      "en": "Bomb Tower"
+    },
+    {
+      "id": 27000005,
+      "zh": "野蛮人小屋",
+      "en": "Barbarian Hut"
+    },
+    {
+      "id": 27000006,
+      "zh": "特斯拉电磁塔",
+      "en": "Tesla"
+    },
+    {
+      "id": 27000007,
+      "zh": "圣水收集器",
+      "en": "Elixir Collector"
+    },
+    {
+      "id": 27000008,
+      "zh": "十字连弩",
+      "en": "X-Bow"
+    },
+    {
+      "id": 27000009,
+      "zh": "骷髅墓碑",
+      "en": "Tombstone"
+    },
+    {
+      "id": 27000010,
+      "zh": "烈焰熔炉",
+      "en": "Furnace"
+    },
+    {
+      "id": 27000012,
+      "zh": "哥布林牢笼",
+      "en": "Goblin Cage"
+    },
+    {
+      "id": 27000013,
+      "zh": "哥布林钻机",
+      "en": "Goblin Drill"
+    },
+    {
+      "id": 28000000,
+      "zh": "火球",
+      "en": "Fireball"
+    },
+    {
+      "id": 28000001,
+      "zh": "万箭齐发",
+      "en": "Arrows"
+    },
+    {
+      "id": 28000002,
+      "zh": "狂暴法术",
+      "en": "Rage"
+    },
+    {
+      "id": 28000003,
+      "zh": "火箭",
+      "en": "Rocket"
+    },
+    {
+      "id": 28000004,
+      "zh": "哥布林飞桶",
+      "en": "Goblin Barrel"
+    },
+    {
+      "id": 28000005,
+      "zh": "冰冻法术",
+      "en": "Freeze"
+    },
+    {
+      "id": 28000006,
+      "zh": "镜像法术",
+      "en": "Mirror"
+    },
+    {
+      "id": 28000007,
+      "zh": "雷电法术",
+      "en": "Lightning"
+    },
+    {
+      "id": 28000008,
+      "zh": "电击法术",
+      "en": "Zap"
+    },
+    {
+      "id": 28000009,
+      "zh": "伤害药水法术",
+      "en": "Poison"
+    },
+    {
+      "id": 28000010,
+      "zh": "骷髅召唤",
+      "en": "Graveyard"
+    },
+    {
+      "id": 28000011,
+      "zh": "滚木",
+      "en": "The Log"
+    },
+    {
+      "id": 28000012,
+      "zh": "飓风法术",
+      "en": "Tornado"
+    },
+    {
+      "id": 28000013,
+      "zh": "克隆法术",
+      "en": "Clone"
+    },
+    {
+      "id": 28000014,
+      "zh": "地震法术",
+      "en": "Earthquake"
+    },
+    {
+      "id": 28000015,
+      "zh": "野蛮人滚桶",
+      "en": "Barbarian Barrel"
+    },
+    {
+      "id": 28000016,
+      "zh": "治疗精灵",
+      "en": "Heal Spirit"
+    },
+    {
+      "id": 28000017,
+      "zh": "大雪球",
+      "en": "Giant Snowball"
+    },
+    {
+      "id": 28000018,
+      "zh": "皇家速递",
+      "en": "Royal Delivery"
+    },
+    {
+      "id": 28000023,
+      "zh": "虚空法术",
+      "en": "Void"
+    },
+    {
+      "id": 28000024,
+      "zh": "哥布林魔咒",
+      "en": "Goblin Curse"
+    },
+    {
+      "id": 28000025,
+      "zh": "精灵女王",
+      "en": "Spirit Empress"
+    },
+    {
+      "id": 28000026,
+      "zh": "藤蔓法术",
+      "en": "Vines"
+    }
+  ]
+}

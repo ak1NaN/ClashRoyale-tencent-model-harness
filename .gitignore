@@ -1,0 +1,11 @@
+.venv/
+.deps/
+models/
+records/
+build/
+config/runtime.json
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+*.log
