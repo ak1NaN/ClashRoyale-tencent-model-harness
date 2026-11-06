@@ -1,8 +1,7 @@
-# ClashRoyale-tencent-model-harness
-[实况视频](https://www.bilibili.com/video/BV19Ean6YEfb/ "必有一锤") 
-面向 macOS 的腾讯版《皇室战争》FirstLight 模型部署端。它从正在运行的 Android 客户端读取本局可见状态，转换为 FirstLight V4 模型输入，并把模型选择的卡牌、落点或英雄技能提交给客户端。界面提供单次对战、连续对战、事件日志、状态报错和实时调试战场。**本仓库是运行源码，不包含游戏客户端、模拟器、模型权重或 Android 游戏资源。**
+# 该项目已过时，其适配的游戏包体为很久以前的了，现已归档不提供更新和技术支持了
+# This project is outdated. The game packages it was adapted for are from a long time ago. It has now been archived and no longer provides updates or technical support.
 
-当前原生偏移配置针对腾讯客户端 **38.4.2**，运行环境为 macOS 与具备 Root ADB 的 Android ARM64 模拟器。客户端更新后可能需要重新测定偏移；其他版本、模拟器和桌面系统未作兼容性保证。模型策略与真实联网客户端之间存在状态同步延迟，本项目无法改变游戏本身的联网时序。
+当前原生偏移配置针对客户端 **38.4.2**，运行环境为 macOS 与具备 Root ADB 的 Android ARM64 模拟器。客户端更新后可能需要重新测定偏移；其他版本、模拟器和桌面系统未作兼容性保证。模型策略与真实联网客户端之间存在状态同步延迟，本项目无法改变游戏本身的联网时序。
 
 ## 运行流程
 
@@ -20,8 +19,8 @@ Android 游戏客户端
 ## 运行条件
 
 - macOS、Python **3.12 或更新版本**（包含 Tkinter）、Xcode Command Line Tools 的 `swiftc`。
-- 已安装并打开腾讯版客户端的 Android ARM64 模拟器，ADB 可连接且 `adb shell id` 返回 Root。默认地址为 `127.0.0.1:5555`。
-- 与 [config/native_offsets.json](config/native_offsets.json) 一致的腾讯客户端版本。目前默认版本为 **38.4.2**。
+- 已安装并打开客户端的 Android ARM64 模拟器，ADB 可连接且 `adb shell id` 返回 Root。默认地址为 `127.0.0.1:5555`。
+- 与 [config/native_offsets.json](config/native_offsets.json) 一致的客户端版本。目前默认版本为 **38.4.2**。
 - 用户自行准备的 FirstLight V4 `.pt` 模型。模型与卡组应自行匹配；本仓库不提供权重。
 - 首次安装依赖需要联网。Python 包按 [requirements.txt](requirements.txt) 固定版本安装。
 
@@ -29,7 +28,7 @@ Android 游戏客户端
 
 1. 下载或克隆本仓库。保持整个文件夹结构完整。
 2. 双击 `Install.command`，或在终端运行 `./Install.command`。脚本会创建 `.venv/`，从 Google 下载 macOS ADB Platform-Tools，从 Frida 官方发布页下载并核验 **17.17.0 Android ARM64** Server，安装 Python 包并编译连续对战的窗口定位辅助程序。下载的二进制放在 `.deps/`，不会进入 Git 提交。
-3. 启动模拟器和腾讯客户端，并确认模拟器的 Root ADB 已启用。把自己的模型文件放入 `models/`，也可以存放在其他位置。
+3. 启动模拟器和客户端，并确认模拟器的 Root ADB 已启用。把自己的模型文件放入 `models/`，也可以存放在其他位置。
 4. 双击 `Start.command`，或运行 `.venv/bin/python run_gui.py`。若本地依赖尚未安装，`Start.command` 会先运行安装脚本。
 5. 在 GUI 中点击 **连接设备**，再点击 **选择 .pt** 与 **加载模型**。设备或模型错误会显示在“状态与报错”页；路径和模拟器地址可在齿轮设置中修改。
 
@@ -69,7 +68,7 @@ Android 游戏客户端
 | 路径 | 用途 |
 | --- | --- |
 | `ai_client/` | GUI、模型/设备控制、连续对战、观测与日志 |
-| `probes/` | 腾讯客户端运行时读取和原生命令脚本 |
+| `probes/` | 客户端运行时读取和原生命令脚本 |
 | `tools/` | 模型输入适配、推理 worker、窗口定位源码 |
 | `config/` | 版本偏移与卡牌 ID/中文名称数据 |
 | `third_party/FirstLight_CR/` | FirstLight 推理所需的原版源码和语义数据 |
